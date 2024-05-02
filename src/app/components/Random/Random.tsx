@@ -17,6 +17,8 @@ export default function Random() {
       <FontAwesomeIcon
         icon={iconsArr[randInd][1]}
         className={style.rand__display}
+        data-testid="iconBox"
+        title={'ht'}
       />
       <button
         className={style.rand__btn}
